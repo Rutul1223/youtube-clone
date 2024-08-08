@@ -10,10 +10,9 @@ import music from '../../assets/music.png'
 import blogs from '../../assets/blogs.png'
 import news from '../../assets/news.png'
 import jack from '../../assets/jack.png'
-import simon from '../../assets/simon.png'
 import tom from '../../assets/tom.png'
-import megan from '../../assets/megan.png'
-import cameron from '../../assets/cameron.png'
+import firo from '../../assets/firo.png'
+import doraemon from '../../assets/doraemon.png'
 
 
 
@@ -53,20 +52,20 @@ const Sidebar = ({sidebar,category,setCategory}) => {
             <div className="subscribed-list">
                 <h3>Subscribed</h3>
                 <div className="side-link">
-                    <img src={jack} alt="" /><p>PiewDiePie</p>
+                    <img src={jack} alt="" /><p>Pickachu</p>
                 </div>
                 <div className="side-link">
-                    <img src={simon} alt="" /><p>MrBeast</p>
+                    <img src={firo} alt="" /><p>Mr Firo</p>
                 </div>
                 <div className="side-link">
-                    <img src={tom} alt="" /><p>Justien Bieber</p>
+                    <img src={tom} alt="" /><p>Tom</p>
                 </div>
                 <div className="side-link">
-                    <img src={megan} alt="" /><p>5-Minutes Crafts</p>
+                    <img src={doraemon} alt="" /><p>Doraemon</p>
                 </div>
-                <div className="side-link">
+                {/* <div className="side-link">
                     <img src={cameron} alt="" /><p>Nas Daily</p>
-                </div>
+                </div> */}
             </div>
         </div>
     )
